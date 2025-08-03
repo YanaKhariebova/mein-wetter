@@ -1,0 +1,107 @@
+body {
+    margin: 0;
+    height: 100vh;
+    background-image: linear-gradient(to top, #9c4ca9, #efb5ee); /* здесь меняешь цвет */
+    text-align: center;
+}
+
+
+h1 {
+    text-align: center;
+    color: rgb(64, 5, 118);
+    background-image: linear-gradient(to top, #bc27d3, #efb5ee);
+    display: inline-block; /* ← делает ширину по содержимому */
+    padding: 10px 80px; /* ← добавляет отступы внутри */
+    border-radius: 30px;
+    font-size: 80px;    /* Устанавливаем размер шрифта 80 пикселей */
+    font-family: "Times New Roman", Times, serif; /* Указываем семейство шрифтов */
+    font-style: italic; /* Задаем курсивное начертание */
+    font-weight: bold;  /* Делаем шрифт полужирным */
+
+}
+
+.eingabe-zeile {
+    display: flex;
+    gap: 50px; /* расстояние между input и кнопкой */
+    justify-content: center;
+    margin: 0;
+    padding: 0;
+}
+
+
+.box {
+    text-align: center;
+    display: flex;
+    flex-direction: column; /* ← выстраиваем элементы в столбик */
+    align-items: center;    /* ← выравниваем по центру */
+    gap: 20px;              /* ← расстояние между элементами */
+    padding: 30px;
+}
+
+
+input {
+    color: rgb(41, 13, 38);
+    font-size: 30px;
+    background-color: rgb(235, 190, 230);
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.2);
+    border-radius: 10px;
+    width: 250px;
+    height: 40px;
+
+     /* шрифты */
+    font-family: "Times New Roman", Times, serif; /* Указываем семейство шрифтов */
+    font-style: italic; /* Задаем курсивное начертание */
+    font-weight: bold;  /* Делаем шрифт полужирным */
+}
+
+
+button {
+    padding: 10px 20px;
+    color: white;
+    border: none;
+    border-radius: 10px; /* ← вот тут задаётся скругление */
+    cursor: pointer;
+    font-size: 16px;
+    /* Объём: тень */
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.2);
+    /* Немного 3D-эффект через градиент */
+    background-image: linear-gradient(to top, #830f92, #efb5ee);
+    /* Плавный переход при наведении */
+    transition: all 0.2s ease;
+}
+
+img {
+    width: 200px;
+}
+
+h2 {
+    color: rgb(183, 19, 19);
+    font-size: 60px;    /* Устанавливаем размер шрифта 60 пикселей */
+    font-family: "Times New Roman", Times, serif; /* Указываем семейство шрифтов */
+    font-style: italic; /* Задаем курсивное начертание */
+    font-weight: bold;  /* Делаем шрифт полужирным */
+    background-image: linear-gradient(to top, #5d2c7b, #efb5ee);
+    border-radius: 10px;
+}
+
+
+
+h3 {
+    color: blue;
+    font-size: 60px;    /* Устанавливаем размер шрифта 60 пикселей */
+    font-family: "Times New Roman", Times, serif; /* Указываем семейство шрифтов */
+    font-style: italic; /* Задаем курсивное начертание */
+    font-weight: bold;  /* Делаем шрифт полужирным */
+}
+
+p {
+    color: rgb(137, 37, 37);
+    font-size: 60px;    /* Устанавливаем размер шрифта 60 пикселей */
+    font-family: "Times New Roman", Times, serif; /* Указываем семейство шрифтов */
+    font-style: italic; /* Задаем курсивное начертание */
+    font-weight: bold;  /* Делаем шрифт полужирным */
+}
+h1, h2, h3, p, .eingabe-zeile {
+    margin-top: 1px;
+    margin-bottom: 3px;
+}
